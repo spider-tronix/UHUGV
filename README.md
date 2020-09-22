@@ -17,6 +17,7 @@ Before Reopening:
     - Validation of the control algorithm in simulation
 
 After Reopening:
+
     - 3D Printing of the Bot
     - Fabrication of the Bot
     - Embedded Coding, and shifting everything to Hardware
@@ -24,6 +25,7 @@ After Reopening:
     - Literature
     
 Control Aspect:
+
     - Kalman filter for IMU
     - Mathematical modelling of sting ray / serpenoid motion
     - Differential Drive
