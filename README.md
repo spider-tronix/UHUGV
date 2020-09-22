@@ -23,6 +23,11 @@ After Reopening:
     - Validation of Simulation results by implementing in Hardware
     - Literature
     
+Control Aspect:
+    - Kalman filter for IMU
+    - Mathematical modelling of sting ray / serpenoid motion
+    - Differential Drive
+    - Control algorithm for servos based on the mathematical model with feedback from IMU
 
 
 
