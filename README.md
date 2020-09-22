@@ -42,6 +42,6 @@ Control Aspect:
 
   • Miriam [https://github.com/Githubmsk]
 
-  • Varshinii Priya
+  • Varshini Priyaa S [https://github.com/varshinisn]
 
   • Shanmuga
