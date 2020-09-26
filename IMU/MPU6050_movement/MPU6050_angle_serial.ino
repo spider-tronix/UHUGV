@@ -19,7 +19,7 @@ int acc_error=0;                         //We use this variable to only calculat
 float rad_to_deg = 180/3.141592654;      //This value is for pasing from radians to degrees values
 float Acc_rawX, Acc_rawY, Acc_rawZ;    //Here we store the raw data read 
 float Acc_angle_x, Acc_angle_y;          //Here we store the angle value obtained with Acc data
-float Acc_angle_error_x, Acc_angle_error_y; //Here we store the initial Acc data error
+float Acc_angle_error_x, Acc_angle_error_y; //Here we store the initial Accelerator error 
 
 float Total_angle_x, Total_angle_y;
 
