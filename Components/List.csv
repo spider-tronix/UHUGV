@@ -1,4 +1,4 @@
-﻿S No.,Name,Status,Possession,Cost,link
+S No.,Name,Status,Possession,Cost,link
 1,4 MG Servos,Not Ordered,Miriam,1400,https://www.amazon.in/REES52-Analog-Digital-Helicopter-Control/dp/B07PMBWFMC/ref=pd_vtp_21_6/260-3911333-4391730?_encoding=UTF8&pd_rd_i=B07PMBWFMC&pd_rd_r=70182526-7c68-4fd3-9398-eed6548e0b88&pd_rd_w=J4yz4&pd_rd_wg=RTAl8&pf_rd_p=ea9b07ad-f80c-40aa-b709-c9f95616bd48&pf_rd_r=T72XKCE75W8QNVTVKPQZ&psc=1&refRID=T72XKCE75W8QNVTVKPQZ
 2,4 MG Servos,Not Ordered,Shanmuga,1400,https://www.amazon.in/REES52-Analog-Digital-Helicopter-Control/dp/B07PMBWFMC/ref=pd_vtp_21_6/260-3911333-4391730?_encoding=UTF8&pd_rd_i=B07PMBWFMC&pd_rd_r=70182526-7c68-4fd3-9398-eed6548e0b88&pd_rd_w=J4yz4&pd_rd_wg=RTAl8&pf_rd_p=ea9b07ad-f80c-40aa-b709-c9f95616bd48&pf_rd_r=T72XKCE75W8QNVTVKPQZ&psc=1&refRID=T72XKCE75W8QNVTVKPQZ
 3,1 MPU 6050,Not Ordered,Miriam,230,https://www.amazon.in/Robocraze-MPU-6050-Gyroscope-Accelerometer-Arduino/dp/B07H3XH1TB/ref=sr_1_1?crid=2C64KB9PJL16W&dchild=1&keywords=mpu+6050&qid=1601226786&s=industrial&sprefix=MPU%2Cindustrial%2C421&sr=1-1
@@ -9,6 +9,10 @@
 8,1 Solder Iron,Not Ordered,Shanmuga,478,https://www.amazon.in/Stanley-69-031B-30-Watt-Corded-Soldering/dp/B00ICIIS5Q/ref=sr_1_10?dchild=1&keywords=solder+iron&qid=1601233307&sr=8-10
 9,1 Lipo Charger,Not Ordered,Miriam,499,https://www.amazon.in/REES52-REES52_4-Balance-Charger-7-4V-11-1V/dp/B018IVXKBS/ref=sr_1_6?dchild=1&keywords=lipo+charger&qid=1601233790&sr=8-6
 10,1 Lipo Charger,Not Ordered,Shanmuga,499,https://www.amazon.in/REES52-REES52_4-Balance-Charger-7-4V-11-1V/dp/B018IVXKBS/ref=sr_1_6?dchild=1&keywords=lipo+charger&qid=1601233790&sr=8-6
+11,Single core copper wires -10m,Not Ordered,Miriam,100,https://www.amazon.in/Electronicspices-Single-Breadboard-Jumper-Hookup/dp/B07YX5QHJ1/ref=sr_1_4?dchild=1&keywords=electronic+wires&qid=1601294348&sr=8-4
+12,Single core copper wires-10m,Not Ordered,Shanmuga,100,https://www.amazon.in/Electronicspices-Single-Breadboard-Jumper-Hookup/dp/B07YX5QHJ1/ref=sr_1_4?dchild=1&keywords=electronic+wires&qid=1601294348&sr=8-4
+13,"Jumper wires -MM,MF,FF",Not Ordered,Miriam,165,https://www.amazon.in/Jumper-Wires-Male-female-Pieces/dp/B00ZYFX6A2/ref=sr_1_1?adgrpid=63292726030&dchild=1&ext_vrnc=hi&gclid=Cj0KCQjwk8b7BRCaARIsAARRTL6tbdjFc3gsPUPU6aYDaQfHY1Ql3gUpJlg2FZbgb0uoZUJ2MBPxI9IaAoVQEALw_wcB&hvadid=397847382857&hvdev=c&hvlocphy=1007809&hvnetw=g&hvqmt=b&hvrand=7339920849583075814&hvtargid=kwd-5
+14,"Jumper wires -MM,MF,FF",Not Ordered,Shanmuga,165,https://www.amazon.in/Jumper-Wires-Male-female-Pieces/dp/B00ZYFX6A2/ref=sr_1_1?adgrpid=63292726030&dchild=1&ext_vrnc=hi&gclid=Cj0KCQjwk8b7BRCaARIsAARRTL6tbdjFc3gsPUPU6aYDaQfHY1Ql3gUpJlg2FZbgb0uoZUJ2MBPxI9IaAoVQEALw_wcB&hvadid=397847382857&hvdev=c&hvlocphy=1007809&hvnetw=g&hvqmt=b&hvrand=7339920849583075814&hvtargid=kwd-5
 ,,,,,
 ,,,,,
-,,,,6614,
+,,,,7144,
