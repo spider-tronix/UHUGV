@@ -31,6 +31,12 @@ Control Aspect:
     - Differential Drive
     - Control algorithm for servos based on the mathematical model with feedback from IMU
 
+Design Aspect:
+
+    - Track and Wheel
+    - Gear Box
+    - Servo Folding Mechanism
+    - Casing
 
 
 # Team:
