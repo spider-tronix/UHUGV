@@ -27,7 +27,7 @@ After Reopening:
 Control Aspect:
 
     - [ ] Kalman filter for IMU
-    - [ ] Mathematical modelling of sting ray / serpenoid motion
+    - [ ] Mathematical modelling of fin ray / serpenoid motion
     - [ ] Differential Drive
     - [ ] Control algorithm for servos based on the mathematical model with feedback from IMU
 
@@ -36,18 +36,18 @@ Design Aspect:
     - [x] Track and Wheel
     - [x] Gear Box
     - [x] Servo Folding Mechanism
-    - [ ] Casing
+    - [x] Casing 
 
 
 # Team:
   
   
-  • Jack Samuel S [https://github.com/jaxxstar] 
+  • [Jack Samuel S](https://github.com/jaxxstar)
   
-  • Anbu Selvan[https://github.com/anbu52] 
+  • [Anbu Selvan](https://github.com/anbu52)
 
-  • Miriam [https://github.com/Githubmsk]
+  • [Miriam](https://github.com/Githubmsk)
 
-  • Varshini Priyaa S [https://github.com/varshinisn]
+  • [Varshini Priyaa S](https://github.com/varshinisn)
 
-  • Shanmuga [https://github.com/shan2501]
+  • [Shanmuga](https://github.com/shan2501)
