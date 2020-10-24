@@ -9,7 +9,7 @@
  */
 
 int LED = 13;
-
+//initializing the variable LED with 13
 //Gyro Variables
 float elapsedTime, time, timePrev;        //Variables for time control
 int gyro_error=0;                         //We use this variable to only calculate once the gyro data error
