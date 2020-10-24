@@ -18,25 +18,25 @@ Before Reopening:
 
 After Reopening:
 
-    - 3D Printing of the Bot
-    - Fabrication of the Bot
-    - Embedded Coding, and shifting everything to Hardware
-    - Validation of Simulation results by implementing in Hardware
-    - Literature
+    - [ ] 3D Printing of the Bot
+    - [ ] Fabrication of the Bot
+    - [ ] Embedded Coding, and shifting everything to Hardware
+    - [ ] Validation of Simulation results by implementing in Hardware
+    - [ ] Literature
     
 Control Aspect:
 
-    - Kalman filter for IMU
-    - Mathematical modelling of sting ray / serpenoid motion
-    - Differential Drive
-    - Control algorithm for servos based on the mathematical model with feedback from IMU
+    - [ ] Kalman filter for IMU
+    - [ ] Mathematical modelling of sting ray / serpenoid motion
+    - [ ] Differential Drive
+    - [ ] Control algorithm for servos based on the mathematical model with feedback from IMU
 
 Design Aspect:
 
-    - Track and Wheel
-    - Gear Box
-    - Servo Folding Mechanism
-    - Casing
+    - [x] Track and Wheel
+    - [x] Gear Box
+    - [x] Servo Folding Mechanism
+    - [ ] Casing
 
 
 # Team:
