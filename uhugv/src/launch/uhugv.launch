@@ -1,6 +1,6 @@
 <launch>
+<arg name='teleop' default='true' />
 <include file="$(find gazebo_ros)/launch/empty_world.launch" >
-
 <arg name="world_name" value="$(find uhugv)/src/worlds/tracked.world" />
 <arg name="paused" default="false"/>
 <arg name="use_sim_time" default="true" />
@@ -8,8 +8,8 @@
 <arg name="headless" default="false"/>
 <arg name="debug" default="false" />
 </include>
-
-
-
-
+<group if='$(arg teleop)'>
+<node pkg='uhugv' type='teleop.py' name='teleop'/>
+</group>
 </launch>
+

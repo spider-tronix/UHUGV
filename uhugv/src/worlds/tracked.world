@@ -9,6 +9,9 @@
 <include>
 <uri> model://ground_plane</uri>
 </include>
+<include>
+  <uri>model://sun</uri>
+</include>
 <physics name='phy' type='ode'>
   <ode>
     <solver>
@@ -18,7 +21,7 @@
     </ode>
 </physics>
 
-<model name="track_creator">
+<model name="tracked_vehicle">
  <pose frame=''>0 0 0 0 0 0</pose>   
 <link name="base_link">
       <self_collide>1</self_collide>
@@ -36,7 +39,7 @@
         <geometry>
          <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/base.stl 
+           file:///home/shankar/simu_ws/src/uhugv/base.dae
          </uri>
         </mesh>
         </geometry>
@@ -50,10 +53,6 @@
       <pose>0.28 0.22 0.071 1.57079632679 0 0</pose>
       <collision name="drum1_collision">
         <geometry>
-          <!--cylinder>
-            <radius>0.07</radius>
-            <length>0.1</length>
-          </cylinder-->
         <mesh>
          <uri>
            file:///home/shankar/simu_ws/src/uhugv/wheel.stl 
@@ -63,7 +62,7 @@
       </collision>
 
       <visual name="drum1_visual">
-        <material> <!-- Wheel material -->
+        <material> 
           <ambient>0 0 0 1</ambient>
           <diffuse>0.1 0.1 0.1 1</diffuse>
           <specular>0 0 0 0</specular>
@@ -141,7 +140,7 @@
         </geometry>
       </collision>
       <visual name="drum3_visual">
-                <material> <!-- Wheel material -->
+                <material>
           <ambient>0 0 0 1</ambient>
           <diffuse>0.1 0.1 0.1 1</diffuse>
           <specular>0 0 0 0</specular>
@@ -1229,40 +1228,6 @@
     <joint type="revolute" name="right_pad_joint30">
       <pose>-0.02695 0 0 0 0 0</pose>
       <parent>right_pad30</parent>
-      <child>right_pad31</child>
-      <axis>
-        <xyz>0 1 0</xyz>
-      </axis>
-    </joint>
-    <link name="right_pad31">
-      <self_collide>1</self_collide>
-      <pose>0.0539 0.22 0.0005 0 -2.1551932566e-15 0</pose>
-      <collision name="right_pad31_collision">
-        <geometry>
-          <box>
-            <size>0.0431 0.1 0.001</size>
-          </box>
-        </geometry>
-      </collision>
-      <visual name="right_pad31_visual">
-        <material> 
-          <ambient>0 0 0 1</ambient>
-          <diffuse>0.1 0.1 0.1 1</diffuse>
-          <specular>0 0 0 0</specular>
-          <emissive>0 0 0 1</emissive>
-        </material>
-        <geometry>
-        <mesh>
-         <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
-         </uri>
-        </mesh>
-        </geometry>
-      </visual>
-    </link>
-    <joint type="revolute" name="right_pad_joint31">
-      <pose>-0.02695 0 0 0 0 0</pose>
-      <parent>right_pad31</parent>
       <child>right_pad1</child>
       <axis>
         <xyz>0 1 0</xyz>
@@ -2283,40 +2248,6 @@
     <joint type="revolute" name="left_pad_joint30">
       <pose>-0.02695 0 0 0 0 0</pose>
       <parent>left_pad30</parent>
-      <child>left_pad31</child>
-      <axis>
-        <xyz>0 1 0</xyz>
-      </axis>
-    </joint>
-    <link name="left_pad31">
-      <self_collide>1</self_collide>
-      <pose>0.0539 -0.22 0.0005 0 -2.1551932566e-15 0</pose>
-      <collision name="left_pad31_collision">
-        <geometry>
-          <box>
-            <size>0.0431 0.1 0.001</size>
-          </box>
-        </geometry>
-      </collision>
-      <visual name="left_pad31_visual">
-        <material> 
-          <ambient>0 0 0 1</ambient>
-          <diffuse>0.1 0.1 0.1 1</diffuse>
-          <specular>0 0 0 0</specular>
-          <emissive>0 0 0 1</emissive>
-        </material>
-        <geometry>
-        <mesh>
-         <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
-         </uri>
-        </mesh>
-        </geometry>
-      </visual>
-    </link>
-    <joint type="revolute" name="left_pad_joint31">
-      <pose>-0.02695 0 0 0 0 0</pose>
-      <parent>left_pad31</parent>
       <child>left_pad1</child>
       <axis>
         <xyz>0 1 0</xyz>

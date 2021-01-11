@@ -15,20 +15,23 @@ v=Twist()
 while not rospy.is_shutdown():
     char=sys.stdin.read(1)
     if char=='w':
-        v.linear.x=0.5
+        v.linear.x=2.0
         pub.publish(v)
         rospy.sleep(0.01)
     elif char=='s':
-        v.linear.x=-0.5
+        v.linear.x=-2.0
         pub.publish(v)
         rospy.sleep(0.01)
     elif char=='a':
-        v.angular.z=1
+        v.angular.z=2.0
         pub.publish(v)
         rospy.sleep(0.01)
     elif char=='d':
-        v.angular.z=1
+        v.angular.z=-2.0
         pub.publish(v)
         rospy.sleep(0.01)
-    v=Twist()
+    v.angular.z=0
+    v.linear.x=0
+    pub.publish(v)
+    
 termios.tcsetattr(file_desc,termios.TCSADRAIN,old)
